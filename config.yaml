@@ -1,0 +1,64 @@
+title: Stackbit Fresh Theme
+baseURL: /
+params:
+  description: Personal blogging theme for Stackbit
+  layout_style: overflow
+  palette: blue
+  header:
+    title: Dave Parr
+    tagline: >-
+      Data-scientist who loves to use #datascienceforgood, especially in
+      ecology, energy and the environment. Bonsai, gardening, bikes and music
+      when I'm not at a keyboard.
+    profile_img: >-
+      https://res.cloudinary.com/practicaldev/image/fetch/s--842YRV0q--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/150692/22b3fd57-c859-4087-897b-f63d034fa359.jpeg
+    background: dark
+    has_nav: true
+    nav_links:
+      - label: Home
+        url: /
+        type: link
+      - label: Blog
+        url: /blog/
+        type: link
+      - label: Style Guide
+        url: /style-guide/
+        type: link
+      - label: About
+        url: /about/
+        type: link
+      - label: Contact
+        url: /contact/
+        type: link
+    has_social: true
+    social_links:
+      - label: Twitter
+        url: 'https://twitter.com/DaveParr'
+        type: icon
+        icon_class: fa-twitter
+        new_window: true
+      - label: GitHub
+        url: 'https://github.com/DaveParr'
+        type: icon
+        icon_class: fa-github
+        new_window: true
+      - label: DEV
+        url: 'https://dev.to/daveparr'
+        type: icon
+        icon_class: fa-dev
+        new_window: true
+  footer:
+    content: '&copy; All rights reserved.'
+    links:
+      - label: Made with Stackbit.
+        url: 'https://www.stackbit.com'
+        type: link
+        new_window: true
+      - label: Generated from DEV
+        url: 'https://dev.to/connecting-with-stackbit'
+        new_window: true
+        type: link
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
