@@ -6,6 +6,8 @@ sections:
     type: section_content
     title: About
     content: >-
+      I'm currently looking for work. [This is my CV](https://www.linkedin.com/in/davidrgparr/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAAQa7T0BRFoSIO-RfqdA_aAWQI3W5R-XXDg,1589817571409)/).
+
       I am involved in a lot of R community things. For [SatRdays](https://satrdays.org/) I built, maintain and deploy the [SatRdays Conference website template](https://github.com/satRdays/satRday_site_template). I have also run SatRdays in Cardiff in [2018](https://cardiff2018.satrdays.org/) and [2019](https://cardiff2019.satrdays.org/). I help run the [Cardiff R User Group](https://www.meetup.com/Cardiff-R-User-Group/), which has run multiple hackathons supporting [Trans Day of Rememberance](https://github.com/CaRdiffR/tdor/commits/master) and has been regularly working on [Tidy Tuesdays projects](https://github.com/CaRdiffR/tidy_thursdays). 
 
       I also work in Python, and regularly attend [PyData Cardiff](https://www.meetup.com/PyData-Cardiff-Meetup/) and [PyData Bristol](https://www.meetup.com/PyData-Bristol/), where I have also given my talk on using [AWS Lambda for Data Science](https://github.com/DaveParr/snakes_and_lambdas).
