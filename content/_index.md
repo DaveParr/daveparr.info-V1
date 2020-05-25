@@ -6,10 +6,10 @@ sections:
     type: section_hero
     title: 'Hi, I''m Dave.'
     content: >-
-      I'm available for work, and am most interested in how data science can save the planet.
-  - section_id: about
+      I work a lot with R and Python on AWS, and am most interested in how data science can save the planet.
+  - section_id: work
     type: section_content
-    title: About
+    title: Available for work
     content: >-
       I've spent a long time working at the intersection of data science and energy management. I'm looking for my next opportunity to do more work with less energy.
     actions:
