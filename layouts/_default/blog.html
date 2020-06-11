@@ -7,7 +7,13 @@
   <div class="post-feed">
     <div class="post-feed-inside">
       {{ $display_posts := (((.Site.GetPage "section" "/posts").Pages).ByDate.Reverse) }}
-      {{ range $post := (where $display_posts "Params.tags" "intersect" (slice "Rstats" "rstats" "python")) }}
+      {{ range $post := $display_posts }}
+      {{ if in .Params.tags "help" }}
+      {{ else if in .Params.tags "question" }}
+      {{ else if in .Params.tags "meta" }}
+      {{ else if in .Params.tags "discuss" }}
+      {{ else if in .Params.tags "watercooler" }}
+      {{ else }}
         <article class="post post-card">
           <div class="post-inside">
             {{ if $post.Params.thumb_img_path }}
@@ -21,15 +27,16 @@
             {{ if $post.Params.excerpt }}
             <div class="post-content">
               <p>{{ $post.Params.excerpt }}</p>
+              <p> {{ $post.Params.tags }} </p>
             </div>
             {{ end }}
             <footer class="post-meta">
               <time class="published"
                 datetime="{{ $post.Date | dateFormat "2006-01-02 15:04" }}">{{ $post.Date | dateFormat "January 02, 2006" }}</time>
-              <p> {{ $post.Params.tags }} </p>
             </footer>
           </div>
         </article><!-- .post -->
+      {{ end }}
       {{ end }}
     </div>
   </div><!-- .post-feed -->
