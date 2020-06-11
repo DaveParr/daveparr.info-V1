@@ -4,7 +4,7 @@ date: '2019-08-27T13:42:58.731Z'
 excerpt: smarter than your average comparison
 thumb_img_path: null
 comments_count: 0
-positive_reactions_count: 6
+positive_reactions_count: 7
 tags:
   - datascience
   - rstats

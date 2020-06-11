@@ -5,12 +5,12 @@ excerpt: >-
   I’ve started making an R package called dev.to.ol. Dev.to has an api which is
   in beta, which I’m usin...
 thumb_img_path: null
-comments_count: 0
-positive_reactions_count: 3
+comments_count: 2
+positive_reactions_count: 6
 tags:
   - Rstats
-  - api
-  - meta
+  - projectbenatar
+  - showdev
   - markdown
 canonical_url: 'https://dev.to/daveparr/posting-from-rmd-to-dev-to-5gld'
 layout: post

@@ -1,1 +1,17 @@
-{"author":{"name":"Dave Parr","avatar":"https://res.cloudinary.com/practicaldev/image/fetch/s--v1yPvsiE--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/150692/22b3fd57-c859-4087-897b-f63d034fa359.jpeg"},"social":{"devto":{"username":"daveparr"},"twitter":{"username":"DaveParr"},"github":{"username":"DaveParr"}}}
+{
+    "author": {
+        "name": "Dave Parr",
+        "avatar": "https://res.cloudinary.com/practicaldev/image/fetch/s--v1yPvsiE--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/150692/22b3fd57-c859-4087-897b-f63d034fa359.jpeg"
+    },
+    "social": {
+        "devto": {
+            "username": "daveparr"
+        },
+        "twitter": {
+            "username": "DaveParr"
+        },
+        "github": {
+            "username": "DaveParr"
+        }
+    }
+}

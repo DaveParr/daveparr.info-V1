@@ -6,7 +6,7 @@ excerpt: >-
   practising with a diffe...
 thumb_img_path: null
 comments_count: 0
-positive_reactions_count: 4
+positive_reactions_count: 5
 tags:
   - RStats
   - tidyverse
